@@ -1,3 +1,5 @@
+import { AppRoutingModule } from './app-routing/app-routing.module';
+import { RouterOutlet, RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -20,7 +22,8 @@ import { DetalhesViagemComponent } from './detalhes-viagem/detalhes-viagem.compo
     DetalhesViagemComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
